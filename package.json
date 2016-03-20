@@ -1,0 +1,19 @@
+{
+  "name": "uploader-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "bin": {
+    "uploader-server": "./bin/uploader-server.js"
+  },
+  "author": "vizonluo@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "formidable": "^1.0.17",
+    "serve-index": "^1.7.3",
+    "serve-static": "^1.10.2"
+  }
+}
